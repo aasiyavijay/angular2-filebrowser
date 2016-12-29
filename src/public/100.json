@@ -1,0 +1,46 @@
+{
+  "page": 1,
+  "per_page": 8,
+  "total_count": 8,
+  "files": [{
+    "name": "Tres-Zap",
+    "size": 6898355,
+    "date": "2016-07-06",
+    "MimeType": "image/tiff"
+  }, {
+    "name": "Treeflex",
+    "size": 1034699,
+    "date": "2016-05-27",
+    "MimeType": "image/jpeg"
+  }, {
+    "name": "Span",
+    "size": 1197991,
+    "date": "2016-10-13",
+    "MimeType": "image/pjpeg"
+  }, {
+    "name": "Zaam-Dox",
+    "size": 1552651,
+    "date": "2016-07-13",
+    "MimeType": "image/gif"
+  }, {
+    "name": "Regrant",
+    "size": 1242638,
+    "date": "2016-01-16",
+    "MimeType": "image/x-tiff"
+  }, {
+    "name": "Aerified",
+    "size": 7980119,
+    "date": "2016-02-09",
+    "MimeType": "image/png"
+  }, {
+    "name": "Zoolab",
+    "size": 4283724,
+    "date": "2016-07-10",
+    "MimeType": "image/jpeg"
+  }, {
+    "name": "Y-Solowarm",
+    "size": 3792591,
+    "date": "2016-01-24",
+    "MimeType": "image/jpeg"
+  }]
+}

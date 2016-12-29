@@ -1,0 +1,41 @@
+{
+  "page": 1,
+  "per_page": 7,
+  "total_count": 7,
+  "files": [{
+    "name": "Bytecard",
+    "size": 1204758,
+    "date": "2016-01-04",
+    "MimeType": "image/jpeg"
+  }, {
+    "name": "Voyatouch",
+    "size": 7216301,
+    "date": "2016-11-11",
+    "MimeType": "image/png"
+  }, {
+    "name": "Keylex",
+    "size": 1369660,
+    "date": "2016-06-09",
+    "MimeType": "image/pjpeg"
+  }, {
+    "name": "Bytecard",
+    "size": 700965,
+    "date": "2016-12-18",
+    "MimeType": "image/jpeg"
+  }, {
+    "name": "Fixflex",
+    "size": 1852088,
+    "date": "2016-08-03",
+    "MimeType": "image/pjpeg"
+  }, {
+    "name": "Quo Lux",
+    "size": 2902995,
+    "date": "2016-01-17",
+    "MimeType": "image/gif"
+  }, {
+    "name": "Ventosanzap",
+    "size": 5448839,
+    "date": "2016-06-27",
+    "MimeType": "image/png"
+  }]
+}

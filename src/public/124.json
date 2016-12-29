@@ -1,0 +1,66 @@
+{
+  "page": 1,
+  "per_page": 10,
+  "total_count": 12,
+  "files": [{
+    "name": "Fixflex",
+    "size": 4197250,
+    "date": "2016-04-19",
+    "MimeType": "image/x-tiff"
+  }, {
+    "name": "Home Ing",
+    "size": 5105363,
+    "date": "2016-12-15",
+    "MimeType": "image/tiff"
+  }, {
+    "name": "Quo Lux",
+    "size": 5202792,
+    "date": "2016-11-13",
+    "MimeType": "image/pjpeg"
+  }, {
+    "name": "Quo Lux",
+    "size": 2744378,
+    "date": "2016-09-09",
+    "MimeType": "image/gif"
+  }, {
+    "name": "Stringtough",
+    "size": 2659857,
+    "date": "2016-03-06",
+    "MimeType": "image/jpeg"
+  }, {
+    "name": "Zoolab",
+    "size": 5329709,
+    "date": "2016-04-21",
+    "MimeType": "image/tiff"
+  }, {
+    "name": "Biodex",
+    "size": 1848014,
+    "date": "2016-07-27",
+    "MimeType": "image/gif"
+  }, {
+    "name": "Cardguard",
+    "size": 5413722,
+    "date": "2016-05-31",
+    "MimeType": "image/jpeg"
+  }, {
+    "name": "Zontrax",
+    "size": 7663019,
+    "date": "2016-03-19",
+    "MimeType": "image/x-tiff"
+  }, {
+    "name": "Temp",
+    "size": 2426526,
+    "date": "2016-03-26",
+    "MimeType": "image/png"
+  }, {
+    "name": "Transcof",
+    "size": 5651267,
+    "date": "2016-07-07",
+    "MimeType": "image/x-tiff"
+  }, {
+    "name": "Rank",
+    "size": 7821154,
+    "date": "2016-05-06",
+    "MimeType": "image/gif"
+  }]
+}

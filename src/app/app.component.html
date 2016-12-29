@@ -1,0 +1,50 @@
+<md-toolbar color="primary" class="md2 md-toolbar md-primary">
+    <span flex>
+    {{title}}
+    </span>
+    <span class="fill_space"></span>
+    <form id="filter" class="search_box">
+        <md-input type="text" name="searchName" [(ngModel)]='searchName' placeholder="Search">
+        </md-input>
+    </form>
+</md-toolbar>
+<div fxLayout="column" fxFill [fxLayout]="direction" class="zero flex-container container content">
+    <md-sidenav fxLayout="row" fxFlex="200px" fxLayoutAlign="stretch" opened="true" class="two folder_section app-sidenav md2 md-sidenav md-sidenav-side">
+        <md-list>
+            <md-list-item fxFlex="100" *ngFor="let folder of folders">
+                <md-icon>folder</md-icon>
+                <span class="folder_name" (click)="viewFiles(folder.id)"> {{folder.name}} </span>
+
+            </md-list-item>
+            <!-- <md-list-item *ngIf="!(folders | filter:searchName).length">
+              <span class="folder_name">No folder found for search "{{searchName}}"</span>
+            </md-list-item> -->
+
+        </md-list>
+    </md-sidenav>
+    <div fxLayout="row" fxFill fxFlex="" class="three file_section">
+        <table class="file_list">
+            <thead>
+                <th class="file_name">Name</th>
+                <th class="file_size">Size</th>
+                <th class="file.date">Date</th>
+                <th class="file_type">Type</th>
+            </thead>
+            <tbody>
+                <tr *ngFor="let file of files.files | filter:searchName">
+                    <td class="file_name">
+                        <md-icon>note</md-icon>
+                        <span>{{file.name}}</span>
+                    </td>
+                    <td class="file_size">{{file.size}}</td>
+                    <td class="file.date">{{file.date}}</td>
+                    <td class="file_type">{{file.MimeType}}</td>
+                </tr>
+                <!-- <tr *ngIf="!(files.files | filter:searchName).length">
+              <td>No folder found for search "{{searchName}}</td>
+            </tr> -->
+
+            </tbody>
+        </table>
+    </div>
+</div>⁠⁠⁠⁠

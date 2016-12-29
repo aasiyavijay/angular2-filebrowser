@@ -1,0 +1,84 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    outline: none;
+}
+
+.search_box {
+    float: right;
+}
+
+.content {
+    min-height: calc(100vh - 64px) !important;
+}
+
+.folder_section {
+    border-right: 1px solid #ccc;
+}
+
+.file_section {}
+
+md-icon {
+    vertical-align: text-bottom;
+}
+
+.folder_name {
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.fill_space {
+    flex: 1 1 auto;
+}
+
+.file_list {
+    width: 100%;
+    border-spacing: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.file_list thead, .file_list tr {
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+.file_list th, .file_list td {
+    padding: 0 15px;
+    height: 45px;
+    border-bottom: 1px solid #ccc;
+    text-align: left;
+}
+
+.file_list tr:first-child td {
+    border-top: 1px solid #ccc;
+}
+
+.file_list td span {
+    padding-left: 10px;
+}
+
+.file_name {
+    width: 50%;
+    /*border-left: 1px solid #ccc;*/
+}
+
+.file_size {
+    width: 20%;
+}
+
+.file_date {
+    with: 15%
+}
+
+.file_type {
+    width: 15%;
+    border-right: 1px solid #ccc;
+}
+
+.add_file_wrapper {
+    margin: 15px;
+    float: right;
+}
